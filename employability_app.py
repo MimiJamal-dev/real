@@ -86,12 +86,12 @@ with st.sidebar:
 st.subheader("🗘️ Candidate Profile")
 candidate_name = st.text_input("Full Name of the Candidate")
 Gender = st.selectbox("Gender", ["Male", "Female"])
-Age = st.selectbox("Age", ["21", "22", "23", "24", "25"])
+Age = st.selectbox("Age", ["21", "22", "23", "24", "25","26","27","28","29","30"])
 CGPA = st.selectbox("CGPA Range", [
     "4.00 - 3.75", "3.74 - 3.50", "3.49 - 3.00", "2.99 - 2.50",
     "2.49 - 2.00", "1.99 - 1.50", "1.49 - 1.00", "Below 1.00"
 ])
-Race = st.selectbox("Race / Ethnicity", ["Malay", "Chinese", "Indian", "Others"])
+Race = st.selectbox("Race / Ethnicity", ["Malay", "Bumiputera Sabah", "Bumiputera Sarawak"])
 Area_Field = st.selectbox("Programme / Field of Study", [
     "Bachelor of Information Technology (Hons)",
     "Bachelor of Science (Hons) Statistics",
